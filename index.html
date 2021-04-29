@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- <html lang="en" class="bg-gray-300"> -->
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Random string</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <h1 id="title">Random string</h1>
+
+      <div id="label-container">
+        <p id="label-string"></p>
+      </div>
+      
+      <div id="input-container">
+        <label for="input-length-string" class="block text-sm font-medium text-gray-700">
+          Number of characters
+        </label>
+          <input type="number" name="input-length-string" id="input-length-string" 
+            min="1"
+          />
+      </div>
+      <div id="button-container">
+        <button onClick="generateString()">GENERATE</button>
+      </div>
+      
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
