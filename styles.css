@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   overflow-y: hidden;
   font-family: "Courier New", Courier, monospace;
+  font-family: "Raleway";
 }
 
 html,
@@ -15,6 +18,7 @@ body {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  background: #1d1f20;
 }
 
 .main-container {
@@ -28,7 +32,7 @@ body {
 
 #title {
   text-align: center;
-  margin: 30px 0 30px 0;
+  color: white;
 }
 
 #label-container {
@@ -41,6 +45,14 @@ body {
 #label-string {
   text-align: center;
   font-weight: bold;
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.number-character-label {
+  color: white;
+  margin-right: 20px;
 }
 
 #input-container {
@@ -49,12 +61,23 @@ body {
   margin-top: 30px;
 }
 
+#input-container label {
+  font-size: 18px;
+}
+
+#input-container input {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 #button-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  border-radius: 15px;
+  font-size: 14px;
 }
 
 #button-container button {
